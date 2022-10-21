@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contáctame</title>
+    <h1>La web de las artes</h1>
+    <h2>SECCIÓN: Contáctanos</h2>
+    <li><a href="../index.html">Inicio</a></li>
+    <li><a href="musica.html">Música</a></li>
+    <li><a href="cine.html">Cine</a></li>
+    <li><a href="literatura.html">Géneros Literarios</a></li>
+    <li><a href="multimedia.html">Multimedia</a></li>
+    <li><a href="contacto.html">Contáctanos</a></li>
+    <hr>
+</head>
+<body>
+    <form method="post" action="#"> 
+        <fieldset>
+            <legend>Datos Personales</legend>
+            Nombre:
+            <input type="text" name="nombre" value="" required/> *
+            <br/>
+            Apellidos: 
+            <input type="text" name="Apellidos" value="" required/> *
+            <br/>
+            Email: 
+            <input type="text" name="Email" value="" required=""/> *
+            <br/>
+            Fecha de Nacimiento:
+            <input type="date" name="Fecha de Nacimiento"/>
+            <br/>
+            <label for="Edad">Edad</label>
+            <input type="Age" name="Edad" value="" pattern="1-100"  />
+            <br/>
+            Sexo <br/>
+            <input type="radio" name="sexo" value="hombre" checked="checked"/> Hombre
+            <input type="radio" name="sexo" value="mujer" /> Mujer
+            <br/>
+            <label for=País>País</label>
+            <select>
+                <option disabled selected="">Seleccionar</option>
+                <option>España</option>
+                <option>Francia</option>
+                <option>Portugal</option>
+                <option>Italia</option>
+            </select>   
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Otros Datos</legend>
+            Mensaje:
+            <textarea name="mensaje" placeholder="Introduce tu mensaje..." cols="60" rows="10"></textarea>
+            <br/>
+            Adjunta una foto... <input type="button" value="Examinar"/> No se ha seleccionado ningún archivo
+
+        </fieldset>
+    </form>
+    <form>
+        <input name="He leído las condiciones" type="checkbox" value=""/>He leído las condiciones
+        <br/>
+        <input type="button" value="Limpiar"/>
+        <input type="button" value="Enviar"/>
+    </form>
+    <h1>Centro de referencia</h1>
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.7797330603544!2d-16.285456882556154!3d28.4560556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc41cceee5a8035f%3A0xab9f2a74d9e68b51!2sCIFP%20C%C3%A9sar%20Manrique!5e0!3m2!1ses!2ses!4v1666261199295!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    <hr>
+    <a href="contacto.html">Inicio</a>
+
+</body>
+</html>
